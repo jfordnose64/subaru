@@ -1,12 +1,60 @@
+@import url('https://fonts.googleapis.com/css?family=Asap&display=swap');
+
 :root {
   font: 16px / 1 sans-serif;
 }
 
 html {
   height: 100%;
+  background:gray;
 }
 
 body {
   margin: 0;
   min-height: 100%;
+  text-align: center;
+}
+
+#head-1 {
+  font-family: Asap,sans-serif;
+  font-size: 50px;
+  color:white;
+  background: gray;
+}
+
+#par-1 {
+  font-size: 37px;
+  font-family: Asap, sans-serif;
+}
+
+#list-head {
+  font-family: Asap, sans-serif;
+  color:white;
+  background:gray;
+  font-size: 45px;
+}
+#list-1 {
+  position: center;
+  color:white;
+  font-size: 25px;
+  padding:10px 10px;
+  border: 4px solid black;
+  font-family: Asap, sans-serif;
+}
+
+#link-1 {
+  font-size:30px;
+  color:black;
+  font-family: Asap, sans-serif;
+}
+#rally-1 {
+  color:black;
+  font-family: Asap, sans-serif;
+  font-size:25px;
+}
+
+#rally-p {
+  color:black;
+  font-family: Asap, sans-serif;
+  font-size: 20px;
 }
