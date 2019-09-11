@@ -1,10 +1,11 @@
 @import url('https://fonts.googleapis.com/css?family=Asap&display=swap');
 
+$ primary-color: #bada55
+
 :root {
   font: 16px / 1 Asap, sans-serif;
-}
 
-html {
+html 
   height: 100%;
   background: black;
   font-family: Asap, sans-serif;
@@ -14,10 +15,10 @@ html {
   display: flex;
   justify-content: center;
   background-image: url('https://i.pinimg.com/originals/eb/d1/74/ebd174a39980735e02f7ab6531d210dd.jpg');
-}
 
-body {
-  margin: 0;
+
+body 
+  {margin: 0;
   min-height: 100%;
   background-image: url('https://data.whicdn.com/images/331085541/large.jpg');
   color: teal;
@@ -25,32 +26,29 @@ body {
   max-width: 1080px;
 }
 
-#head-1 {
-  font-family: Asap, sans-serif;
+#head-1 
+  {font-family: Asap, sans-serif;
   font-size: 50px;
   color: blue;
   border: 4px solid black;
   padding: 2rem;
   margin: 100px 200px;
-  padding: 1rem;
-}
+  padding: 1rem;}
 
-#par-1 {
-  font-size: 37px;
+#par-1 
+  {font-size: 37px;
   font-family: Asap, sans-serif;
   margin-right: 300px;
   margin-left: 300px;
   color: blue;
-  padding: 1rem;
-}
+  padding: 1rem;}
 
-#list-head {
-  font-family: Asap, sans-serif;
+#list-head 
+  {font-family: Asap, sans-serif;
   color: blue;
-  font-size: 45px;
-}
-.cost_of {
-  position: center;
+  font-size: 45px;}
+.cost_of 
+  {position: center;
   color: black;
   font-size: 25px;
   font-family: Asap, sans-serif;
@@ -62,8 +60,8 @@ body {
   background-image: url('https://previews.123rf.com/images/faitotoro/faitotoro1605/faitotoro160500022/58104436-neon-brush-seamless-pattern-background.jpg');
 }
 
-.link_subaru {
-  font-size: 30px;
+.link_subaru 
+  {font-size: 30px;
   color: blue;
   font-family: Asap, sans-serif;
   list-style: none;
@@ -71,17 +69,17 @@ body {
   background-color: teal;
   background-image: url('https://previews.123rf.com/images/faitotoro/faitotoro1605/faitotoro160500022/58104436-neon-brush-seamless-pattern-background.jpg');
 }
-#rally-1 {
-  color: blue;
+
+#rally-1 
+  {color: blue;
   font-family: Asap, sans-serif;
   font-size: 25px;
   border: 4px dotted greenyellow;
   background-color: teal;
   background-image: url('https://previews.123rf.com/images/faitotoro/faitotoro1605/faitotoro160500022/58104436-neon-brush-seamless-pattern-background.jpg');
 }
-
-#rally-p {
-  color: blue;
+#rally-p 
+ { color: blue;
   font-family: Asap, sans-serif;
   font-size: 30px;
   border: 4px dotted greenyellow;
@@ -89,21 +87,18 @@ body {
   flex-flow: column-reverse;
   background-image: url('https://previews.123rf.com/images/faitotoro/faitotoro1605/faitotoro160500022/58104436-neon-brush-seamless-pattern-background.jpg');
 }
+.image 
+  {width: 300;
+  height: 300;}
 
-.image {
-  width: 300;
-  height: 300;
-}
-
-.list_good {
-  font-family: asap, sans-serif;
+.list_good 
+  {font-family: asap, sans-serif;
   font-size: 2rem;
   border: 4px dotted greenyellow;
   background-image: url('https://previews.123rf.com/images/faitotoro/faitotoro1605/faitotoro160500022/58104436-neon-brush-seamless-pattern-background.jpg');
 }
-
-.page_2_button {
-  background-image: url('https://previews.123rf.com/images/faitotoro/faitotoro1605/faitotoro160500022/58104436-neon-brush-seamless-pattern-background.jpg');
+.page_2_button 
+  {background-image: url('https://previews.123rf.com/images/faitotoro/faitotoro1605/faitotoro160500022/58104436-neon-brush-seamless-pattern-background.jpg');
   width: 12rem;
   height: 4rem;
   font-size: 1rem;
@@ -111,42 +106,34 @@ body {
   font-weight: bold;
   border: 4px dotted greenyellow;
 }
+.page_2_button:hover 
+  {cursor: pointer;}
 
-.page_2_button:hover {
-  cursor: pointer;
-}
-
-.pg2_p {
-  font-family: asap, sans-serif;
+.pg2_p 
+  {font-family: asap, sans-serif;
   font-size: 2rem;
   border: 4px dotted greenyellow;
   background-image: url('https://previews.123rf.com/images/faitotoro/faitotoro1605/faitotoro160500022/58104436-neon-brush-seamless-pattern-background.jpg');
 }
-
-.subi_impreza {
-  font-weight: 1rem;
+.subi_impreza 
+  {font-weight: 1rem;
 }
+#colin_mcrae 
+ { border-radius: 2rem;}
 
-#colin_mcrae {
-  border-radius: 2rem;
+#colin_mcrae:hover 
+{  cursor: pointer;
 }
-
-#colin_mcrae:hover {
-  cursor: pointer;
-}
-
-#mcrae {
-  height: 20rem;
+#mcrae 
+  {height: 20rem;
   width: 30rem;
-  border-radius: 2rem;
-}
+  border-radius: 2rem;}
 
-#mcrae:hover {
-  cursor: pointer;
-}
+#mcrae:hover 
+  {cursor: pointer;}
 
-.menu {
-  list-style-type: none;
+.menu 
+  {list-style-type: none;
   margin: 0;
   border: 4px dotted greenyellow;
   width: 100%;
@@ -158,17 +145,16 @@ body {
   background-color: teal;
   background-image: url('https://previews.123rf.com/images/faitotoro/faitotoro1605/faitotoro160500022/58104436-neon-brush-seamless-pattern-background.jpg');
 }
-
-.menu ul {
-  display: flex;
+.menu ul 
+  {display: flex;
   width: 100%;
   justify-content: space-between;
   text-decoration: none;
-  color: black;
-}
+  color: black;}
 
-.footer {
-  padding: 4rem;
+
+.footer 
+  {padding: 4rem;
   background-image: url('https://thumbs.dreamstime.com/z/memphis-style-grunge-art-seamless-pattern-vector-geometric-elements-texture-s-design-fabric-white-background-colored-polygon-113367877.jpg');
   background-color: white;
 }
